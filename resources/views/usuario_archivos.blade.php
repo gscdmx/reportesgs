@@ -128,7 +128,7 @@ table, th, td {
                           <button type="button" class="btn btn-primary obten_doc2" data-toggle="modal"  data-imagen="{{$documento2->archivo}}" data-target="#modal_doc_reporte">
                          {{$documento2->archivo}}
                           </button>
-                           <a href="{{url('/uploads').'/'.$documento2->archivo}}" class="btn btn-primary" download>Descargar</a>
+                           <a href="{{url('/tracing').'/'.$documento2->archivo}}" class="btn btn-primary" download>Descargar</a>
                         @endif
                       </td>    
                     </tr>
@@ -143,14 +143,7 @@ table, th, td {
 
 
 
-
-
-
-
-
-
-
-     
+  
 
 
 
