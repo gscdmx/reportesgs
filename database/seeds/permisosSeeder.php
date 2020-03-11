@@ -16,7 +16,6 @@ class permisosSeeder extends Seeder
             'descripcion'=>"Administra usuarios del sistema",
         ]);
 
-
         DB::table('cat_permisos')->insert([
             'permiso'=>"Módulo de Reportes RJG",
             'descripcion'=>"Mis reportes y ver reportes",
