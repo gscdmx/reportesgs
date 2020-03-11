@@ -676,7 +676,7 @@ class UsersTableSeeder extends Seeder
         DB::table('users')->insert([
             'name'=>"ALVARO-OBREGON",
             'email'=>"ALVARO-OBREGON",
-            'permisos'=>'a:5:{i:1;s:1:"2";i:2;s:1:"3";i:3;s:1:"4";i:4;s:1:"5";i:7;s:1:"8";}',
+            'permisos'=>'a:2:{i:5;s:1:"6";i:7;s:1:"8";}',
             'password'=>bcrypt('ALVARO-OBREGÓN'),
             'delegacion_user'=>"1"
 
@@ -686,7 +686,7 @@ class UsersTableSeeder extends Seeder
         DB::table('users')->insert([
             'name'=>"AZCAPOTZALCO",
             'email'=>"AZCAPOTZALCO",
-            'permisos'=>'a:5:{i:1;s:1:"2";i:2;s:1:"3";i:3;s:1:"4";i:4;s:1:"5";i:7;s:1:"8";}',
+            'permisos'=>'a:2:{i:5;s:1:"6";i:7;s:1:"8";}',
             'password'=>bcrypt('AZCAPOTZALCO'),
             'delegacion_user'=>"2"
 
@@ -695,7 +695,7 @@ class UsersTableSeeder extends Seeder
          DB::table('users')->insert([
             'name'=>"BENITO-JUAREZ",
             'email'=>"BENITO-JUAREZ",
-            'permisos'=>'a:5:{i:1;s:1:"2";i:2;s:1:"3";i:3;s:1:"4";i:4;s:1:"5";i:7;s:1:"8";}',
+            'permisos'=>'a:2:{i:5;s:1:"6";i:7;s:1:"8";}',
             'password'=>bcrypt('BENITO-JUAREZ'),
             'delegacion_user'=>"3"
 
@@ -704,7 +704,7 @@ class UsersTableSeeder extends Seeder
           DB::table('users')->insert([
             'name'=>"COYOACAN",
             'email'=>"COYOACAN",
-            'permisos'=>'a:5:{i:1;s:1:"2";i:2;s:1:"3";i:3;s:1:"4";i:4;s:1:"5";i:7;s:1:"8";}',
+            'permisos'=>'a:2:{i:5;s:1:"6";i:7;s:1:"8";}',
             'password'=>bcrypt('COYOACAN'),
             'delegacion_user'=>"4"
 
@@ -713,7 +713,7 @@ class UsersTableSeeder extends Seeder
            DB::table('users')->insert([
             'name'=>"CUAJIMALPA",
             'email'=>"CUAJIMALPA",
-            'permisos'=>'a:5:{i:1;s:1:"2";i:2;s:1:"3";i:3;s:1:"4";i:4;s:1:"5";i:7;s:1:"8";}',
+            'permisos'=>'a:2:{i:5;s:1:"6";i:7;s:1:"8";}',
             'password'=>bcrypt('CUAJIMALPA'),
             'delegacion_user'=>"5"
 
@@ -723,7 +723,7 @@ class UsersTableSeeder extends Seeder
             DB::table('users')->insert([
             'name'=>"CUAUHTEMOC",
             'email'=>"CUAUHTEMOC",
-            'permisos'=>'a:5:{i:1;s:1:"2";i:2;s:1:"3";i:3;s:1:"4";i:4;s:1:"5";i:7;s:1:"8";}',
+            'permisos'=>'a:2:{i:5;s:1:"6";i:7;s:1:"8";}',
             'password'=>bcrypt('CUAUHTEMOC'),
             'delegacion_user'=>"6"
 
@@ -733,7 +733,7 @@ class UsersTableSeeder extends Seeder
              DB::table('users')->insert([
             'name'=>"GUSTAVO-A-MADERO",
             'email'=>"GUSTAVO-A-MADERO",
-            'permisos'=>'a:5:{i:1;s:1:"2";i:2;s:1:"3";i:3;s:1:"4";i:4;s:1:"5";i:7;s:1:"8";}',
+            'permisos'=>'a:2:{i:5;s:1:"6";i:7;s:1:"8";}',
             'password'=>bcrypt('GUSTAVO-A-MADERO'),
             'delegacion_user'=>"7"
 
@@ -744,7 +744,7 @@ class UsersTableSeeder extends Seeder
               DB::table('users')->insert([
             'name'=>"IZTACALCO",
             'email'=>"IZTACALCO",
-            'permisos'=>'a:5:{i:1;s:1:"2";i:2;s:1:"3";i:3;s:1:"4";i:4;s:1:"5";i:7;s:1:"8";}',
+            'permisos'=>'a:2:{i:5;s:1:"6";i:7;s:1:"8";}',
             'password'=>bcrypt('IZTACALCO'),
             'delegacion_user'=>"8"
 
@@ -755,7 +755,7 @@ class UsersTableSeeder extends Seeder
                DB::table('users')->insert([
             'name'=>"IZTAPALAPA",
             'email'=>"IZTAPALAPA",
-            'permisos'=>'a:5:{i:1;s:1:"2";i:2;s:1:"3";i:3;s:1:"4";i:4;s:1:"5";i:7;s:1:"8";}',
+            'permisos'=>'a:2:{i:5;s:1:"6";i:7;s:1:"8";}',
             'password'=>bcrypt('IZTAPALAPA'),
             'delegacion_user'=>"9"
 
@@ -766,7 +766,7 @@ class UsersTableSeeder extends Seeder
                 DB::table('users')->insert([
             'name'=>"MAGDALENA-CONTRERAS",
             'email'=>"MAGDALENA-CONTRERAS",
-            'permisos'=>'a:5:{i:1;s:1:"2";i:2;s:1:"3";i:3;s:1:"4";i:4;s:1:"5";i:7;s:1:"8";}',
+            'permisos'=>'a:2:{i:5;s:1:"6";i:7;s:1:"8";}',
             'password'=>bcrypt('MAGDALENA-CONTRERAS'),
             'delegacion_user'=>"10"
 
@@ -777,7 +777,7 @@ class UsersTableSeeder extends Seeder
                  DB::table('users')->insert([
             'name'=>"MIGUEL-HIDALGO",
             'email'=>"MIGUEL-HIDALGO",
-            'permisos'=>'a:5:{i:1;s:1:"2";i:2;s:1:"3";i:3;s:1:"4";i:4;s:1:"5";i:7;s:1:"8";}',
+            'permisos'=>'a:2:{i:5;s:1:"6";i:7;s:1:"8";}',
             'password'=>bcrypt('MIGUEL-HIDALGO'),
             'delegacion_user'=>"11"
 
@@ -788,7 +788,7 @@ class UsersTableSeeder extends Seeder
                   DB::table('users')->insert([
             'name'=>"MILPA-ALTA",
             'email'=>"MILPA-ALTA",
-            'permisos'=>'a:5:{i:1;s:1:"2";i:2;s:1:"3";i:3;s:1:"4";i:4;s:1:"5";i:7;s:1:"8";}',
+            'permisos'=>'a:2:{i:5;s:1:"6";i:7;s:1:"8";}',
             'password'=>bcrypt('MILPA-ALTA'),
             'delegacion_user'=>"12"
 
@@ -798,7 +798,7 @@ class UsersTableSeeder extends Seeder
          DB::table('users')->insert([
             'name'=>"TLAHUAC",
             'email'=>"TLAHUAC",
-            'permisos'=>'a:5:{i:1;s:1:"2";i:2;s:1:"3";i:3;s:1:"4";i:4;s:1:"5";i:7;s:1:"8";}',
+            'permisos'=>'a:2:{i:5;s:1:"6";i:7;s:1:"8";}',
             'password'=>bcrypt('TLAHUAC'),
             'delegacion_user'=>"13"
 
@@ -807,7 +807,7 @@ class UsersTableSeeder extends Seeder
           DB::table('users')->insert([
             'name'=>"TLALPAN",
             'email'=>"TLALPAN",
-            'permisos'=>'a:5:{i:1;s:1:"2";i:2;s:1:"3";i:3;s:1:"4";i:4;s:1:"5";i:7;s:1:"8";}',
+            'permisos'=>'a:2:{i:5;s:1:"6";i:7;s:1:"8";}',
             'password'=>bcrypt('TLALPAN'),
             'delegacion_user'=>"14"
 
@@ -817,7 +817,7 @@ class UsersTableSeeder extends Seeder
            DB::table('users')->insert([
             'name'=>"VENUSTIANO-CARRANZA",
             'email'=>"VENUSTIANO-CARRANZA",
-            'permisos'=>'a:5:{i:1;s:1:"2";i:2;s:1:"3";i:3;s:1:"4";i:4;s:1:"5";i:7;s:1:"8";}',
+            'permisos'=>'a:2:{i:5;s:1:"6";i:7;s:1:"8";}',
             'password'=>bcrypt('VENUSTIANO-CARRANZA'),
             'delegacion_user'=>"15"
 
@@ -827,7 +827,7 @@ class UsersTableSeeder extends Seeder
             DB::table('users')->insert([
             'name'=>"XOCHIMILCO",
             'email'=>"XOCHIMILCO",
-            'permisos'=>'a:5:{i:1;s:1:"2";i:2;s:1:"3";i:3;s:1:"4";i:4;s:1:"5";i:7;s:1:"8";}',
+            'permisos'=>'a:2:{i:5;s:1:"6";i:7;s:1:"8";}',
             'password'=>bcrypt('XOCHIMILCO'),
             'delegacion_user'=>"16"
 
