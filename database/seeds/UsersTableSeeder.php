@@ -50,7 +50,6 @@ class UsersTableSeeder extends Seeder
 
         ]);
 
-
         DB::table('users')->insert([
             'name'=>"AOB-4",
             'email'=>"AOB-4",
@@ -832,8 +831,6 @@ class UsersTableSeeder extends Seeder
             'delegacion_user'=>"16"
 
         ]);
-
-       
 
     }
 }
