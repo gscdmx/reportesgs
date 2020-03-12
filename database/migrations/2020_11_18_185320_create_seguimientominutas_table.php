@@ -22,7 +22,7 @@ class CreateSeguimientominutasTable extends Migration
             $table->date('fecha')->nullable();
             $table->time('hora_i')->nullable();
             $table->string('numero')->nullable();
-            $table->string('resolucion')->nullable();      
+            $table->text('resolucion')->nullable();      
             $table->timestamps();
         });
     }

@@ -22,7 +22,7 @@ class CreateTracingsTable extends Migration
             $table->date('fecha')->nullable();
             $table->time('hora_i')->nullable();
             $table->string('numero')->nullable();
-            $table->string('resolucion')->nullable();
+            $table->text('resolucion')->nullable();
             $table->text('archivo_imagen')->nullable();   
             $table->text('archivo')->nullable();         
             $table->timestamps();
