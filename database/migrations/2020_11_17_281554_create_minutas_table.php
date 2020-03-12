@@ -23,10 +23,10 @@ class CreateMinutasTable extends Migration
             $table->time('hora_f')->nullable();
             $table->string('tipo_documento')->nullable();
             $table->string('otro_documento')->nullable();
-            $table->string('lugar')->nullable();   
-            $table->string('reporte')->nullable();
-            $table->string('otro_informe')->nullable();
-            $table->string('acuerdos')->nullable();
+            $table->text('lugar')->nullable();   
+            $table->text('reporte')->nullable();
+            $table->text('otro_informe')->nullable();
+            $table->text('acuerdos')->nullable();
             $table->integer('user_registro')->nullable();      
             $table->timestamps();
         });

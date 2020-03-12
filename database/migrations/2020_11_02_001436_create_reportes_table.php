@@ -23,13 +23,13 @@ class CreateReportesTable extends Migration
             $table->time('hora_i')->nullable();
             $table->time('hora_f')->nullable();
             $table->string('tipo_documento')->nullable();
-            $table->string('asunto')->nullable();
-            $table->string('domicilio')->nullable();   
+            $table->text('asunto')->nullable();
+            $table->text('domicilio')->nullable();   
             $table->string('colonia')->nullable();
-            $table->string('descripcion_hecho')->nullable();
+            $table->text('descripcion_hecho')->nullable();
             $table->string('hubo_acuerdos')->nullable();
-            $table->string('descripcion_acuerdos')->nullable();
-            $table->string('observaciones')->nullable();  
+            $table->text('descripcion_acuerdos')->nullable();
+            $table->text('observaciones')->nullable();  
             $table->text('archivo_imagen')->nullable();   
             $table->text('archivo')->nullable(); 
             $table->integer('user_registro')->nullable();      
