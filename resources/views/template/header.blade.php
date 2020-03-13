@@ -100,8 +100,8 @@ if (isset(\Auth::user()->permisos)) {
               <?php if(in_array(4, $array_permisos)):?>
               <li><a href="#exampledropdownDropdown_3" aria-expanded="false" data-toggle="collapse"> <i class="icon-list"></i>SEGUIMIENTO DE REPORTES RJG</a>
               <ul id="exampledropdownDropdown_3" class="collapse list-unstyled ">
-              <li><a href="{{url('/seguimientorjg')}}"> <i class="icon-list"></i>MIS REPORTES DE SEGUIMIENTO</a></li>
-              <li><a href="{{url('/getlistadoseguimiento')}}"> <i class="icon-list"></i>VER MIS REPORTES DE SEGUIMIENTO</a></li>            
+              <li><a href="{{url('/seguimientorjg')}}"> <i class="icon-list"></i>MI SEGUIMIENTO DE REPORTES</a></li>
+              <li><a href="{{url('/getlistadoseguimiento')}}"> <i class="icon-list"></i>VER MI SEGUIMIENTO DE REPORTES</a></li>            
               </ul>
               </li>
               <?php endif?>
@@ -116,9 +116,9 @@ if (isset(\Auth::user()->permisos)) {
               <?php endif?>
 
               <?php if(in_array(6, $array_permisos)):?>
-              <li><a href="#exampledropdownDropdown__5" aria-expanded="false" data-toggle="collapse"> <i class="icon-list"></i>REPORTES GENERALES DE ALCALDIAS</a>
+              <li><a href="#exampledropdownDropdown__5" aria-expanded="false" data-toggle="collapse"> <i class="icon-list"></i>REPORTES GENERALES DE ALCALDíAS</a>
               <ul id="exampledropdownDropdown__5" class="collapse list-unstyled ">
-              <li><a href="{{url('/reportes_generales')}}"> <i class="icon-list"></i>REPORTES DE ALCALDIAS</a></li>                    
+              <li><a href="{{url('/reportes_generales')}}"> <i class="icon-list"></i>REPORTES DE ALCALDíAS</a></li>                    
               </ul>
               </li>
               <?php endif?>
