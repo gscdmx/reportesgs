@@ -842,6 +842,24 @@ class UsersTableSeeder extends Seeder
 
         ]);
 
+            DB::table('users')->insert([
+            'name'=>"Itzel Ortíz",
+            'email'=>"itz3l.ortiz2020",
+            'permisos'=>'a:2:{i:6;s:1:"7";i:7;s:1:"8";}',
+            'password'=>bcrypt('iTz3l2020cdmx'),
+            'delegacion_user'=>""
+
+        ]);
+
+           DB::table('users')->insert([
+            'name'=>"Lic. Bertha",
+            'email'=>"B3rTh4.2020",
+            'permisos'=>'a:2:{i:6;s:1:"7";i:7;s:1:"8";}',
+            'password'=>bcrypt('B3rTh4cdmx2020.70'),
+            'delegacion_user'=>""
+
+        ]);
+
     }
 }
 
