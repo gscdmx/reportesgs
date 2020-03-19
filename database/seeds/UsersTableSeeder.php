@@ -121,9 +121,9 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name'=>"BJU-3",
-            'email'=>"BJU-1",
+            'email'=>"BJU-3",
             'permisos'=>'a:5:{i:1;s:1:"2";i:2;s:1:"3";i:3;s:1:"4";i:4;s:1:"5";i:7;s:1:"8";}',
-            'password'=>bcrypt('BJU-3'),
+            'password'=>bcrypt('BJ-3'),
             'delegacion_user'=>"3"
 
         ]);
@@ -466,8 +466,8 @@ class UsersTableSeeder extends Seeder
 
 
         DB::table('users')->insert([
-            'name'=>"MC-1",
-            'email'=>"MC-1",
+            'name'=>"MCA-1",
+            'email'=>"MCA-1",
             'permisos'=>'a:5:{i:1;s:1:"2";i:2;s:1:"3";i:3;s:1:"4";i:4;s:1:"5";i:7;s:1:"8";}',
             'password'=>bcrypt('MAC-1'),
             'delegacion_user'=>"10"
@@ -476,8 +476,8 @@ class UsersTableSeeder extends Seeder
 
 
         DB::table('users')->insert([
-            'name'=>"MC-2",
-            'email'=>"MC-2",
+            'name'=>"MCA-2",
+            'email'=>"MCA-2",
             'permisos'=>'a:5:{i:1;s:1:"2";i:2;s:1:"3";i:3;s:1:"4";i:4;s:1:"5";i:7;s:1:"8";}',
             'password'=>bcrypt('MAC-2'),
             'delegacion_user'=>"10"

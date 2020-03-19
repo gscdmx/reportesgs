@@ -364,8 +364,8 @@ class CtTableSeeder extends Seeder
         
 
         DB::table('cat_coord_territorials')->insert([
-            'ct'=>"MC-1",
-            'ct2'=>"MC-1",
+            'ct'=>"MAC-1",
+            'ct2'=>"MAC-1",
             'sector'=>"SAN JERÓNIMO",
             'id_alcaldia'=>"10"
         ]);
@@ -373,8 +373,8 @@ class CtTableSeeder extends Seeder
 
 
         DB::table('cat_coord_territorials')->insert([
-            'ct'=>"MC-2",
-            'ct2'=>"MC-2",
+            'ct'=>"MAC-2",
+            'ct2'=>"MAC-2",
             'sector'=>"DÍNAMO",
             'id_alcaldia'=>"10"
         ]);
