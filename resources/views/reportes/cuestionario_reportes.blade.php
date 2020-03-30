@@ -198,6 +198,7 @@
               <option value="Tarjeta Relevante">Tarjeta Relevante</option>
               <option value="Tarjeta Urgente">Tarjeta Urgente</option>
               <option value="Tarjeta Confidencial">Tarjeta Confidencial</option>
+              <option value="Reporte Sendero Seguro">Reporte Sendero Seguro</option>
             </select>
             
              @if ($errors->has('tipo_documento')) <p  style="color: red">{{ $errors->first('tipo_documento') }}</p> @endif 
